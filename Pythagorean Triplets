@@ -1,0 +1,9 @@
+To check if a number possess its pythagorean triplets then it means that the number can be represented as sum of two squares. According to fermats theorem if any number which is odd prime and is of the form (4*k + 1) can be expressed as sum of two squares. 
+
+Some good information --- > 
+1. Let a triplet be (3 , 4 , 5) then every integral multiple of that is a triplet i.e. (6, 8 , 10)
+2. What if the case is a triangle then a side cant ever be 0.
+
+Now if we look at observation 1 we get to know that if we know whether any prime can be expressed as sum of two squares then their every multiple is also expressible as sum of two squares. Now to test if a length x can become a hypotenuse, we need to test if x^2 is a number which can be expressed as sum of two square numbers. This can be done easily by testing if it contains some prime factors of the form (4*k + 1).
+
+Whole credit for this post goes to this link - https://en.wikipedia.org/wiki/Fermat's_theorem_on_sums_of_two_squares
