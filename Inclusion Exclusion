@@ -1,0 +1,10 @@
+Inclusion Exclusion principle is my favourite one.
+The most important thing to remember which can easily be derived from the Venn diagrams is the following formula--->
+http://www.cut-the-knot.org/arithmetic/combinatorics/iePrinciple.gif
+(If author of the image allows me to post here then its ok or else i can remove the link from this page)
+
+Its application can be seen in Graphs theory also. For Example -- Counting Hamiltonian paths in a graph if only few edges have been
+removed from a graph containing large number of edges. Problem link - www.codechef.com/problems/SEAKAM
+
+
+*Permutation in any graph is a hamiltonian path not loop
