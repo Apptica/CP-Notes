@@ -12,3 +12,16 @@ i = 1 string is "a" so there is no proper prefix or suffix
 i = 2 string is "ab" so there is one proper prefix "a" and only one proper suffix "b" but there is no matching so length is 0
 i = 3 string is "abc" so there are two prefixes "a","ab" and two suffixes "bc","c" but no matching so again 0
 
+SO similarily for all i we have the answer in a array A[].
+Now why and how this array will help is listed below ----->
+
+Think that you were matching a string with very large string. 
+Larger String (Haystack) a b c d a a b c d a a b c a
+Smaller String (Needle)  a a b c a
+
+If i start matching then --->
+a b c d a a b c d a a b c a
+        | | | | x
+        a a b c a
+Since no match of 'a' with 'd' so now apply your brain and think from which character you need to match the string again.
+Most probably 
