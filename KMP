@@ -1,0 +1,14 @@
+#KMP Algorithm description and better understanding tips ----->Actually why and How KMP Algorithm works
+#Assume indexing is done from 1 to n for a string of size n
+First of all we construct an LCP array also known as fail array.
+
+LCP[i] = length of proper suffix that matches a proper prefix in the string of length 1 to i
+
+      a b c a a b c b a
+A[i]  0 0 0 1 0 2 3 0 1
+
+The concept of constructing this array is - >
+i = 1 string is "a" so there is no proper prefix or suffix
+i = 2 string is "ab" so there is one proper prefix "a" and only one proper suffix "b" but there is no matching so length is 0
+i = 3 string is "abc" so there are two prefixes "a","ab" and two suffixes "bc","c" but no matching so again 0
+
