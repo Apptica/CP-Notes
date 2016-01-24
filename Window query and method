@@ -1,0 +1,3 @@
+The two pointer method can be used in doing questions like ad-hoc over a contiguous range which require an order (n) implementation.
+1.Can be implemented using a double ended queue data structure to process range minimum and other queries
+2.Can be also used for problems like finding good sub segment where the size of windows is not fixed.
