@@ -1,0 +1,7 @@
+To count total arrays with given gcd when the gcd range can be small i.e. upto 10^6 ~ 10^7 - >
+1. For all the possible prime factors of each number in the list count frequency of each prime factors and multiples i.e
+F[2] stores all counts of those numbers which are multiples of 2
+F[3] stores all counts of those numbers which are multiples of 3 and likewise for all the numbers
+
+Now all possible sets that can be formed using multiple of a number i are 2^F[i] - 1 . But this includes combinations which result in gcds of the multiples suppose 2 has multiples 2,4,6 then their all sets are {2},{4},{6},{2,4},{4,6},{2,6},{2,4,6}
+Here all sets dont have gcd value 2 so we need to subtract thise values which are multiples of 2 i.e. gcds with 4. So we use a reverse calculation and subset mosdifications :)
