@@ -1,0 +1,2 @@
+1. a^x % M where x is very large can be calculated by making x = x%phi(M) where phi is the euler totient value of M. 
+2. inverse modulo of x with respect to M is given by x^(phi(M)-1)%M
